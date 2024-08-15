@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbie Ville</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Caveat:wght@400..700&family=Grey+Qo&display=swap" rel="stylesheet">
+   
+    <link rel="shortcut icon" href="./src/img/barbie_log-removebg-preview.png" type="image/x-icon">
+    <script src="./src/js/index.js" defer></script>
+</head>
+
+<body>
+    <header class="barbie">
+            <a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TKosyTMzKDYwYPRiS0osSspMBQBQ4Abr&q=barbie&rlz=1C1CHBF_pt-PTBR1081BR1081&oq=baebie&gs_lcrp=EgZjaHJvbWUqDAgBEC4YChjUAhiABDIGCAAQRRg5MgwIARAuGAoY1AIYgAQyDAgCEC4YChjUAhiABDIJCAMQABgKGIAEMgkIBBAAGAoYgAQyCQgFEAAYChiABDIJCAYQLhgKGIAEMgkIBxAuGAoYgAQyCQgIEC4YChiABNIBCTU1NjlqMGoxNagCCLACAQ&sourceid=chrome&ie=UTF-8"  target="_blank">  <img src="./src/img/barbie_log-removebg-preview.png"  alt=""></a>
+        
+    </header>
+    <div class="audio"> <audio id="myAudio">
+        <source src="./src/midia.mp3/barbie musica.weba" type="audio/mp3">
+    </audio>
+<button onclick="playAudio()"><img src="src/img/play.png" alt=""></button>
+<button onclick="pauseAudio()"><img src="src/img/block.png" alt=""></button>
+</div>
+    <main class="barbies-slider">
+        <button class="btn-seta btn-voltar">
+            <img src="./src/img/carro barbie sem fundo grande.png" alt="voltar" id="seta-voltar">
+        </button>
+
+        <ul class="barbies">
+            <li class="cartao fundo-1 selecionada">
+                <div class="informacoes">
+                    <h2 class="nome">Bler Millicent</h2>
+                    <a class="profissao" href="https://www.google.com/search?q=barbie+moda+e+magia&client=opera&hs=YFM&sca_esv=c14fbbbc00866f01&sxsrf=ADLYWILNtyidPsbFNaQX3kAXx8u_YSWX3Q%3A1723656141903&ei=zee8ZqTSNqer5OUPqcm6yAk&gs_ssp=eJzj4tLP1TdIrkoyKS82YPQSTkosSspMVcjNT0lUAFKJ6ZmJALE2CsU&oq=barbie+modad+&gs_lp=Egxnd3Mtd2l6LXNlcnAiDWJhcmJpZSBtb2RhZCAqAggAMgoQLhiABBixAxgNMgcQABiABBgNMgcQABiABBgNMgcQABiABBgNMgcQABiABBgNMgcQABiABBgNMgcQABiABBgNMgcQABiABBgNMgcQABiABBgNMgcQABiABBgNMhkQLhiABBixAxgNGJcFGNwEGN4EGOAE2AEDSKMoUJ0KWLUacAB4AZABAZgB-AKgAe4YqgEIMC4xMC4yLjO4AQHIAQD4AQGYAg-gArEmqAIRwgIHECMYJxjqAsICBxAuGCcY6gLCAhMQABiABBhDGLQCGIoFGOoC2AEBwgIWEC4YgAQYQxi0AhjIAxiKBRjqAtgBAsICFxAuGIAEGOMEGLQCGMgDGOkEGOoC2AECwgIKECMYgAQYJxiKBcICChAuGIAEGCcYigXCAg0QLhiABBhDGNQCGIoFwgIKEAAYgAQYQxiKBcICChAuGIAEGEMYigXCAhAQLhiABBixAxhDGNQCGIoFwgILEC4YgAQYsQMY1ALCAggQABiABBixA8ICDRAuGIAEGLEDGEMYigXCAgUQABiABMICCxAuGIAEGLEDGIMBwgILEAAYgAQYsQMYgwHCAhAQLhiABBixAxhDGIMBGIoFwgIcEC4YgAQYsQMYQxiKBRiXBRjcBBjeBBjgBNgBA8ICCBAuGIAEGLEDwgIXEC4YgAQYsQMYlwUY3AQY3gQY4ATYAQOYA4ADugYGCAEQARgBugYGCAIQARgIugYGCAMQARgUkgcLMC45LjIuMy43LTGgB4CnBA&sclient=gws-wiz-serp">Profissão: Estilista</a>
+                </div>   
+                <div class="conteiner-img">
+                    <img src="./src/img/Blair.png" alt="Mewtwo" class="img-barbie">
+
+                </div>        
+                <div class="descricao scrollbox">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Nascida em Paris Bler Milicent mudou-se para Malibu para passar uma temporada na Dreamhouse casa de sua prima Barbie, pois, estudou moda com sua mãe Milicent e quer se expandir em Malibu com ajuda de Barbie e suas amigas. Porém Barbie só não sabe que Bler tem o poder de conversar com as fadas da moda para que elas possam estar jogando brilho em suas criações chamando atenção de Malibu, causando um efeito super mágico em seus vestidos.</p>    
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes2">
+                    <h2 class="nome">Sophia Bernard
+                    </h2>
+                    <a class="profissao" href="https://www.google.com/search?q=barbie+bruxa&client=opera&hs=fc1&sca_esv=c14fbbbc00866f01&sxsrf=ADLYWIKK1cUFaGGxMGwYe0ObKQamgZzByw%3A1723656296412&ei=aOi8ZuHvGMDW5OUPwo3EiAI&ved=0ahUKEwjhw4yKgPWHAxVAK7kGHcIGESEQ4dUDCA8&uact=5&oq=barbie+bruxa&gs_lp=Egxnd3Mtd2l6LXNlcnAiDGJhcmJpZSBicnV4YTIFEAAYgAQyBRAAGIAEMgUQABiABDIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIIEAAYFhgeGA9I92BQ7EBY3V1wA3gBkAEAmAGoAaAB-QuqAQQwLjExuAEDyAEA-AEBmAIOoALzDMICChAAGLADGNYEGEfCAg4QABiwAxjkAhjWBNgBAcICFhAuGIAEGLADGEMY1AIYyAMYigXYAQLCAgoQIxiABBgnGIoFwgIFEC4YgATCAgsQLhiABBixAxiDAcICCBAAGIAEGLEDwgIKEC4YgAQYJxiKBcICCxAAGIAEGLEDGIMBwgIIEC4YgAQYsQPCAgsQLhiABBixAxjUAsICFBAuGIAEGJcFGNwEGN4EGOAE2AEDwgIIEAAYFhgKGB6YAwCIBgGQBg26BgYIARABGAm6BgYIAhABGAi6BgYIAxABGBSSBwQzLjExoAeUbA&sclient=gws-wiz-serp"> Profissão: Feiticeira</a>
+                </div>    
+                <div class="conteiner-img">
+                    <img src="./src/img/Sophia Bernard (2).png" alt="Charizard" class="img-barbie">
+
+                </div>       
+                <div class="descricao2 scrollbox">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Filha mais velha da vigésima geração de feiticeiros, tem facilidade com venenos e magias que envolve fogo,boa com lutas corpo a corpo e arco e flecha criada desde de pequena por seus pais para ser a melhor feiticeira do reino</p>    
+                </div>
+            </li>
+
+            <li class=" cartao fundo-3 ">
+                <div class="informacoes3">
+                    <h2 class="nome">Maya Stallone
+                    </h2>
+                     <a class="profissao" href="https://www.google.com/search?q=barbie+boiadeira&client=opera&hs=hL8&sca_esv=8073e08529232501&sxsrf=ADLYWILC5tRGtW-WnYM8IZVrPeLgF_Ws5w%3A1723602712037&ei=GBe8ZsH1AbHb1sQP5MbY0As&oq=Barbie+boi&gs_lp=Egxnd3Mtd2l6LXNlcnAiCkJhcmJpZSBib2kqAggAMggQABiABBixAzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjiFFCQBVivCnABeAGQAQCYAdQBoAHrBKoBBTAuMy4xuAEByAEA-AEBmAIFoAKaBcICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIOEAAYsAMY5AIY1gTYAQHCAhYQLhiABBiwAxhDGNQCGMgDGIoF2AECwgITEC4YgAQYsAMYQxjIAxiKBdgBAsICCBAuGIAEGLEDwgILEC4YgAQYsQMY" target="_blank">Profissão: Vaqueira</a>
+                </div>
+                <div class="conteiner-img">
+                    
+                    <img src="./src/img/Maya Stalone.png" alt="Maya Stallone" class="img-barbie">
+
+                </div>    
+                <div class="descricao3 scrollbox">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto"> Habilidades com animais tem poderes para cura-los, com o passar do tempo aprendeu a falar com eles herdou isso de sua família materna descobriu que esses poderes passam de geração para geração, adora morar na fazenda King Ranch na qual foi criada des de pequena para desenvolver seus poderes des de pequena.</p>    
+                </div>
+            </li>
+            <li class=" cartao fundo-4 ">
+                <div class="informacoes4">
+                    <h2 class="nome">Medalyne Crüe
+                    </h2>
+                     <a class="profissao" href="https://www.google.com/search?client=opera&hs=0O6&sca_esv=d05fce14889cf0fa&sxsrf=ADLYWIJ40yLJrq9djZ_jqDDyzzlSszhvhA:1723754109583&q=barbie+vampira&tbm=vid&source=lnms&fbs=AEQNm0AuaLfhdrtx2b9ODfK0pnmi2aC_xrXWMCzvpYJNclNNRCOG4t8WPeBQqnJC-vvwlgOo7k5OE_Mn9egEkOrddQqDlsifiZAbLa_6h-nfMnUJRqET7L7LnYoWq94SjUixzrA-_dD6VrIn0gWoXR31UoYIQDLWtMNIBL_X-Xbrl4oVbd6sx3gFeeyw_iii69pBSpEdNS2BVfj78ZaERFTU8O4r-A_bfw&sa=X&ved=2ahUKEwiV0Ya77PeHAxU6r5UCHS6gH6AQ0pQJegQICxAB&biw=1647&bih=772&dpr=1.13" target="_blank">Profissão: Escritora</a>
+                </div>
+                <div class="conteiner-img">
+                    
+                    <img src="./src/img/Medalyne Crüe.png" alt="Medalyne Crüe" class="img-barbie">
+
+                </div>    
+                <div class="descricao4 scrollbox">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto"> 
+                        Medalyne Crüe era uma Barbie comum até encontrar um anel encantado em uma loja de antiguidades. Ao colocá-lo, foi envolvida por uma névoa que a transformou em uma vampira: seus olhos tornaram-se vermelhos, presas surgiram e sua pele ficou pálida. Apesar de seus novos poderes — como transformação em névoa, força sobre-humana e hipnose — Medalyne manteve um coração bondoso, optando por se alimentar de sangue artificial criado em seu laboratório.hoje em dia trbalha como escritora de terror em Malibu</p>    
+                </div>
+            </li>
+        </ul>
+        <button class="btn-seta">
+            <img src="./src/img/carro barbie sem fundo grande.png" alt="avançar" id="seta-avancar">
+        </button>
+    </main>
+
+
+  
+
+
+</body>
+
+</html>

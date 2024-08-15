@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    table-layout: none;
+}
+
+a {
+    font-style: none;
+    text-decoration: none;
+}
+
+button {
+    text-decoration: none;
+    color: none;
+    background: none;
+    z-index: 1;
+
+}

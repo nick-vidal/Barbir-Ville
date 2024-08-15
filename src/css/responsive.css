@@ -1,0 +1,51 @@
+@media (max-width:620px) {
+    .barbie-slider {
+        padding: 0px 15px;
+        gap: 10px;
+        height: 10%;
+        width: 50%;
+    }
+
+    .btn-seta {
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .barbies {
+        max-height: 450px;
+        min-height: 100px;
+    }
+
+    .cartao .img-barbie {
+        max-height: 200px;
+        min-height: 100px;
+    }
+
+    .cartao .informacoes .nome {
+        max-width: 50%;
+        font-size: 18px;
+    }
+
+    .cartao .informacoes .profissao {
+        font-size: 14px;
+    }
+
+    .cartao {
+        width: 100%;
+        height:100%
+    }
+
+    .cartao .descriacao .texto {
+        font-size: 10px;
+    }
+
+    .btn-seta img {
+        height: 40px;
+        width: 40px;
+    }
+}
